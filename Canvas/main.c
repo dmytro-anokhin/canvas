@@ -7,9 +7,13 @@
 //
 
 #include <stdio.h>
+#include "Canvas.h"
+
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    CanvasRef canvas = DisplayCanvasCreate();
+    CanvasDraw(canvas);
+    CanvasFree(canvas);
+    
     return 0;
 }
