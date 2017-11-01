@@ -1,1 +1,1 @@
-# canvas
+Sample to demonstrate encapsulation, inheritance, and polymorphism in C

@@ -11,7 +11,7 @@
 
 
 /// The Canvas represents drawing area. It contains specific information needed to render (such as size, pixel density, color space, etc.), whether the destination is a display, a printer, or a bitmap.
-typedef struct Canvas * CanvasRef;
+typedef struct Canvas *CanvasRef;
 
 /// The color profile of a display
 typedef enum ColorSpace {
